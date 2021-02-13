@@ -6,6 +6,6 @@ namespace GameDemo
 {
     public interface ICampaignService : IRepositoryService<Campaign>
     {
-
+        Console.WriteLine("abc");
     }
 }
